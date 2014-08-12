@@ -1,0 +1,1 @@
+<?php$varLogin = addslashes($_POST["login"]);$varSenha = addslashes($_POST["senha"]);if ($varLogin == "admin" && $varSenha=="admin") {    session_start("login");    $_SESSION["user"] = $varLogin;    $_SESSION["senha"] = $varSenha;    header('Location: ../paginas/Home.php');    } else {    header('Location: ../paginas/login.php?acao=ERRO');}?>

@@ -1,0 +1,383 @@
+
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    
+    
+}
+
+#menu{
+    width: 15%;
+    float: left;
+}
+
+
+header{
+   
+    background-color: chartreuse;
+    width: 100%;
+}
+
+
+#pesquisa
+{
+border-color: black;
+margin: 0 auto;
+width: 20%;
+}
+
+#produto , #AtualizaProduto{
+    width: 80%;
+    min-height: 478px; 
+    float: left;
+    background-color: yellowgreen;
+}
+#fornecedor , #AtualizaFornecedor{
+    width: 80%;
+    float: left;
+}
+#galao{
+    width: 80%;
+    float: left;
+    background-color: yellowgreen;
+}
+
+#content{
+    width: 100%;
+    float: left;
+    min-height: 690px;
+    margin-top: 0px;
+    height: 530px;
+}
+
+a {color:#333; text-decoration:none}
+a:hover {color:#ccc; text-decoration:none}
+
+#mask {
+  position:absolute;
+  background-color:#000;
+  display:none;
+  top:0;
+  left:0;
+}
+
+  
+.boxes .window {
+    position:absolute;
+    width:90%;
+    height: 380px;
+    overflow: auto;
+    overflow-style: scrollbar;
+    background-color: #ffffff;
+    display:none;
+    z-index:1;
+    padding-top: 20px;
+
+}
+
+#div_login
+{
+    text-align: center;
+    width: 20%;
+    height: 180px;
+    margin-left: 380px;
+    margin-top: 200px;
+    background-image: url(../imagens/bandeira.jpg);
+    
+}
+
+
+#botao_logar{
+    margin-top: 20px;
+    width: 80%;
+}
+
+#label_login
+{
+    
+    background-color: #ffffff;
+    font-size: 24px;
+}
+
+
+#content2
+{
+    width: 100%;
+    background-color: #ccc;
+    float: left;
+    
+}
+
+#estoque
+{
+width: 80%;
+float: left;
+background-color: yellowgreen;    
+ 
+}
+
+#resultado
+{
+    text-align: center;
+    overflow: auto; 
+}
+
+
+#relatorio{
+    width: 50%;
+    background-color: #ccc;
+}
+
+#botao_vendas{
+    width: 180px;
+    margin-top: 0px;
+    height: 150px;
+    float: left;
+}
+
+#botao_datas{
+    width: 180px;
+    margin-top: 0px;
+    height: 150px;
+    float: left;
+}
+
+#datas
+{
+    float: left;
+    margin-top: 0px;
+}
+
+#vendas{
+    margin-top: 0;
+    float: left;
+}
+
+#botoes{
+    float: left;
+    width: 80%;
+    height: 20px;
+    background-color: #ccc;
+    margin-top: 0;
+        
+}
+
+
+
+table{
+    margin-top: 0;
+    width: 99%;
+}
+
+
+table tr.azul td{
+    
+    background-color: #66ff66;
+    
+    
+}
+
+
+#cabecalhoTelefone{
+    margin-top: 0;
+}
+
+
+
+
+#resultado{
+    margin-right: 0px;
+    margin-top: 50px;
+}
+
+#resultado {
+   
+    margin-right: 0px;
+    margin-top: 50px;
+}
+
+
+
+#resultadoTel{
+   text-align: center;
+   margin-top: 50px;
+   overflow: auto;
+   
+}
+
+tabel tr td .idcliente
+{
+    width: 50px;
+}
+
+
+/*CabeçalhoProduto*/
+
+#thcodigoProduto{
+    width: 10%;
+}
+#thnomeProduto{
+    text-align: center;
+    width: 20%;
+}
+#fornecedorCabecalho{
+    width: 25%;
+}
+#thValorCompra{
+    margin-left: 35px;
+    width: 10%;
+}
+#thquantidadeProduto{
+    width:9%;
+}
+#thValorVenda{
+    width: 10%;
+}
+
+
+#conteudoCliente{
+    width: 100%;
+    min-height: 420px;
+    float: left;
+    margin-top: 0px;
+    background-color: #ffffff;
+    text-align: left;
+}
+
+
+#camposForm{
+    width: 50%;
+    float: left;
+}
+
+
+#conteudoProduto{
+    min-height: 420px;
+    width: 90%;
+    float: left;
+    margin-top: 30px;
+    ;
+    background-color: #ffffff;
+    
+}
+
+#conteudoProduto label{
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+#conteudoCliente * {
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+#tabelaVendaProduto{
+    margin-left: 10px;
+    width: 90%;
+    height: 250px;
+    background-color: #ffcc66;
+    
+}
+
+#vendaNome{
+    width: 100%;
+    float: left;
+    height: 20px;
+}
+
+#botaoVenda{
+    float: left;
+    margin-left: 50px;
+    
+}
+
+#botaoCancelaVenda{
+    
+    float: left;
+    
+   
+}
+
+
+
+#fundoValores{
+    width: 90%;
+    background-color: #ccc;
+    margin-left: 10px;
+   
+}
+
+#botoesVenda{background-color: #ffffff;
+             height: 50px;
+             width: 26%;
+             margin-top:  0%;
+             margin-left: 66%;
+}
+
+#resultadoRelatorio{
+    float: left;
+    height: 100px;
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+#CadastroCliente
+{
+ margin-left: 90px; 
+ margin-top: 10px; 
+ float: left; width: 70%; 
+ margin-bottom:0px; 
+ min-height: 650px;
+    
+}
+
+.Label_estado{
+    margin-left: 235px;
+}
+
+.input_estado{
+    margin-left: 30px;
+    width: 60px;
+}
+
+.input_numero{
+    margin-left: 10px;
+    width: 60px;
+}
+
+.input_cidade{
+    width: 250px;
+}
+
+.sectionGalao{
+    width: 25%;
+    float: left;
+}
+
+.endParte1{
+    width: 50%;
+    float: left;
+}
+
+.endParte2{
+    width: 50%;
+    min-height: 204px;
+    float: left;
+}
+.complemento{
+    width: 345px;
+}
+
+.table_cupom_cont, .fonte_xsmall_cupom{
+    width: 300px;
+    font-size: x-small;
+}
+
+#content_Cupom{
+    width: 300px;
+    height: 550px;
+}
