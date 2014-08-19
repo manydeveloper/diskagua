@@ -5,18 +5,16 @@ include("../index/header.php");
 <meta charset="utf-8">
 <section id="content">
     <!-- CONTEÚDO -->
-    <section  id="menu" style="margin-left: 10px; float: left; height: 100%;">
-        <?php include("../index/menu.php"); ?>
+    <section  id="menuSuperior" >
+        <?php include("../index/menuSuperior.php"); ?>
     </section>
 
-    <section class="well well-lg" style="margin-left: 90px; margin-top: 10px; float: left; width: 70%; margin-bottom:0px; min-height: 650px;">
+    <section class="well well-lg, wrapper" style=" float: left; width: 70%;  ">
     <fieldset>
             <legend>
                 Manutenção de Clientes
             </legend>   
         </fieldset>
-        
-        
         
         <div id="pesq">
             <div>
@@ -67,7 +65,7 @@ include("../index/header.php");
                 </div>    
                
             </div>
-            <div id="mask" style="width: 1366px; height: 318px; display: none; opacity: 0.8;"></div>
+            <div id="mask" ></div>
         </div>
     </section> 
 

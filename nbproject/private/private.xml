@@ -3,10 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/diskagua/Class/conexao.class.php</file>
-            <file>file:/C:/xampp/htdocs/diskagua/index/header.php</file>
-            <file>file:/C:/xampp/htdocs/diskagua/paginas/cadastra_venda.php</file>
-            <file>file:/C:/xampp/htdocs/diskagua/js/script.js</file>
+            <file>file:/C:/xampp/htdocs/disk/paginas/cadastra_Cliente.php</file>
+            <file>file:/C:/xampp/htdocs/disk/index/menuSuperior.php</file>
+            <file>file:/C:/xampp/htdocs/disk/paginas/manutencaoCliente.php</file>
+            <file>file:/C:/xampp/htdocs/disk/css/style.css</file>
         </group>
     </open-files>
 </project-private>

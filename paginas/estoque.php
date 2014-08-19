@@ -3,27 +3,29 @@ include("../index/header.php");
 ?>
 <section id="content">
     <!-- CONTEÚDO -->
-    <section  id="menu">
-        <?php include("../index/menu.php"); ?>
+    <section  id="menuSuperior">
+        <?php include("../index/menuSuperior.php"); ?>
     </section>
 
-    <section id="cliente" id="manutencao" class="well well-lg" style="margin-left: 90px; margin-top: 10px; float: left; width: 70%; margin-bottom:0px; min-height: 650px;">
+    <section class="well well-lg, wrapper">
         <fieldset>
             <legend>
                 Estoque de Produtos
             </legend>   
         </fieldset>
-        
-        <label> Pesquisar <input type="text" name="campoPesquisa" id="campoPesquisa"></label><input type="button" name="botaoPesquisa" value="Pesquisar" onclick="pesquisaProduto();">         
-        <br>
-        <div class="checkbox-inline">
+        <div>
             <label>Codigo
-        <input type="radio" name="pesquisaProduto" id="idProduto" value="idProduto">
+            <input type="radio" name="pesquisaProduto" id="idProduto" value="idProduto">
             </label>
-        <label>Nome
+            <label>Nome
             <input type="radio" name="pesquisaProduto" id="nomeProduto" value="nome">
-        </label>
+            </label>
         </div>
+        <br>
+        <label> Pesquisar </label><br>
+        <input type="text" name="campoPesquisa" id="campoPesquisa"><input type="button" name="botaoPesquisa" value="Pesquisar" onclick="pesquisaProduto();">         
+        <br>
+        
         
         <hr>
         <div id="resultado"> 

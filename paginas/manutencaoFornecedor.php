@@ -3,21 +3,18 @@ include("../index/header.php");
 ?>
 <section id="content">
     <!-- CONTEÚDO -->
-    <section  id="menu" style="margin-left: 10px;" >
-        <?php include("../index/menu.php"); ?>
+    <section   >
+        <?php include("../index/menuSuperior.php"); ?>
     </section>
     
-    <section id="manutencao" class="well well-lg" style="margin-left: 90px; margin-top: 10px; float: left; width: 70%; margin-bottom:0px; height: 490px;">
+    <section  class="well well-lg, wrapper" >
     <fieldset>
             <legend>
                 Manutenção de Fornecedores
             </legend>   
         </fieldset>           
         <div id="pesq">
-            <label> Pesquisar <input class="input-sm" type="text" name="campoPesquisa" id="campoPesquisa"></label><a href="#dialog3" name="modal" onclick="pesquisaFornecedor();"> Pesquisar </a>         
-        <br>
-        <br>
-        <div class="checkbox-inline">
+        <div>
         <label>Codigo
         <input type="radio" name="pesquisaFornecedor" id="idCliente" value="idfornecedor">
         </label>
@@ -28,9 +25,15 @@ include("../index/header.php");
         <input type="radio" name="pesquisaFornecedor" id="cpf" value="cnpj">
         </label>
         </div>
+       
+        <br>
+        <label> Pesquisar </label><br>
+        <input  type="text" name="campoPesquisa" id="campoPesquisa"><a href="#modalManuForn" name="modal" onclick="pesquisaFornecedor();"> Pesquisar </a>         
+        <br>
+        <br>
         </div>
-        <div id="boxes" >
-        <div id="dialog3" class="window" >
+        <div class="boxes" >
+        <div id="modalManuForn" class="window" >
             <a href="#" class="close">Fechar [X]</a><br>
             <div id="cabecalhoResultado">
 
@@ -59,7 +62,7 @@ include("../index/header.php");
         </div>
             </div>
          </div>
-            <div id="mask" style="width: 1366px; height: 318px; display: none; opacity: 0.8;"></div>
+            <div id="mask" ></div>
                 </div>
         
         

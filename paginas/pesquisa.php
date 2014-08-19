@@ -1,7 +1,7 @@
 
         <?php
         include_once("../index/header.php");
-	include_once("../index/menu.php");
+	include_once("../index/menuSuperior.php");
         ?>
  
 

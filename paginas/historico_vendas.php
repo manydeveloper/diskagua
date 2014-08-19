@@ -6,7 +6,7 @@ include_once '../index/header.php';
 <section id="content">
     
     <section id="menu">
-        <?php include_once '../index/menu.php'; ?>
+        <?php include_once '../index/menuSuperior.php'; ?>
     </section>
     
     <section id="historico" class="well well-lg" style="margin-left: 100px; margin-top: 10px; float: left; width: 70%; margin-bottom:0px; min-height: 650px;">

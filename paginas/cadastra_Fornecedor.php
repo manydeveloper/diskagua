@@ -3,8 +3,8 @@ include("../index/header.php");
 ?>
 
 <section id="content">
-    <section style="float: left; margin-left: 10px;">
-        <?php include ("../index/menu.php"); ?>
+    <section id="menuSuperior">
+        <?php include ("../index/menuSuperior.php"); ?>
     </section>
     
     <?php
@@ -14,32 +14,29 @@ if(empty($_GET["id"])){
 
 ?>
 
-    
-    
-
-    <section id="fornecedor" class="well well-lg" style="margin-left: 20px; margin-top: 10px; float: left; width: 70%; margin-bottom:0px; min-height: 650px;">
+    <section id="fornecedor" class="well well-lg, wrapper" >
         <fieldset>
             <legend>
                 Cadastro de Fornecedores
             </legend>   
         </fieldset>
-        <form style="margin-left: 50px;" class="form-horizontal" name="formFornecedor" action="../functions/cadastra_fornecedor_sql.php" method="post">   
+        <form  class="form-horizontal" name="formFornecedor" action="../functions/cadastra_fornecedor_sql.php" method="post">   
             <label><strong> Nome Fornecedor </strong> </label>
             <br>
-            <input class="input-sm" type="text" name="nomeFornecedor" placeholder="NOME">
+            <input  type="text" name="nomeFornecedor" placeholder="NOME">
             <br>
             <br>
             <label><strong> Endereço </strong></label>
             <br>
-            <input class="input-sm" type="text" name="enderecoFornecedor" placeholder="ENDEREÇO">
+            <input  type="text" name="enderecoFornecedor" placeholder="ENDEREÇO">
             <br>
             <br>
-           <select class="input-sm" name="estado" id="estado" onchange="pesquisaCidadeFormFornecedor();">
+           <select  name="estado" id="estado" onchange="pesquisaCidadeFormFornecedor();">
                 <option value="Selecione">Estado</option>
                 <?php require_once '../functions/pesquisaEstado_sql.php';?>
             </select>
            
-            <select class="input-sm" name="cidade" id="cidade">
+            <select  name="cidade" id="cidade">
                 <option selected value="Selecione">Cidade</option>
                
             </select>
@@ -47,25 +44,25 @@ if(empty($_GET["id"])){
             <br>
             <label><strong> CNPJ  </strong></label>
             <br>
-            <input class="input-sm" type="text" name="cnpjFornecedor" placeholder="CNPJ">
+            <input  type="text" name="cnpjFornecedor" placeholder="CNPJ">
             <br>
             <br>
             <label><strong> E-mail </strong></label>
             <br>
-            <input class="input-sm" type="text" name="emailFornecedor" placeholder="EMAIL">
+            <input  type="text" name="emailFornecedor" placeholder="EMAIL">
             <br>
             <br>
             <label><strong> Telefone </strong></label>
             <br>
-            <input class="input-sm" type="text" name="telefoneFornecedor" placeholder="TELEFONE">
+            <input  type="text" name="telefoneFornecedor" placeholder="TELEFONE">
             <br>
             <br>
             <label><strong> CEP </strong></label>
             <br>
-            <input class="input-sm" type="text" name="cepFornecedor" placeholder="CEP">
+            <input  type="text" name="cepFornecedor" placeholder="CEP">
             <br>
             <br>
-            <button class="btn-default" type="submit" name="cadastraFornecedor"> Cadastrar </button>
+            <button  type="submit" name="cadastraFornecedor"> Cadastrar </button>
         </form>
     </section>
 

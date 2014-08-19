@@ -7,9 +7,9 @@
     
 <section id="content">
 <!-- CONTEÚDO -->
-<section id="menu" style="margin-left: 10px;"  >
+<section id="menuSuperior" >
 <?php
-    include("../index/menu.php");
+    include("../index/menuSuperior.php");
 ?>
 </section>
 
@@ -20,9 +20,7 @@ if(empty($_GET["id"])){
 
 ?>
 
-
-
-<section class="well well-lg" style="margin-left: 90px; margin-top: 10px; float: left; width: 70%; margin-bottom:0px; height: 490px;">
+<section class="well well-lg, wrapper" >
     <fieldset>
             <legend>
                 Cadastro de Produtos
@@ -30,25 +28,25 @@ if(empty($_GET["id"])){
         </fieldset>
 <form action="../functions/cadastra_produto_sql.php" method="post">
         <br>
-        <input class="input-sm" type="text" name="nomeProduto" id="nomeProduto" placeholder="NOME PRODUTO">
+        <input type="text" name="nomeProduto" id="nomeProduto" placeholder="NOME PRODUTO">
 	<br>	
 	<br>
-        <select class="input-sm" name="Fornecedor">
+        <select name="Fornecedor">
         <?php require_once '../functions/pesquisaFornecedor_sql.php';?>
       </select>
-        <input class="input-sm" type="button" name="butAddFornecedor" id="butAddFornecedor" value="Add" onclick="redirecionaPaginas('cadastra_Fornecedor.php');">
+        <input type="button" name="butAddFornecedor" id="butAddFornecedor" value="Add" onclick="redirecionaPaginas('cadastra_Fornecedor.php');">
 	<br>	
 	<br>
-	<input class="input-sm" type="text"  name="quantidade" id="quantidade" placeholder="QUANTIDADE">
+	<input type="text"  name="quantidade" id="quantidade" placeholder="QUANTIDADE">
 	<br>
 	<br>
-	<input class="input-sm" type="text"  name="valorDeCompra" id="valorDeCompra" placeholder="VALOR DE COMPRA">
+	<input type="text"  name="valorDeCompra" id="valorDeCompra" placeholder="VALOR DE COMPRA">
 	<br>
         <br>
-	<input class="input-sm" type="text"  name="valorDeVenda" id="valorDeVenda" placeholder="VALOR DE VENDA">
+	<input type="text"  name="valorDeVenda" id="valorDeVenda" placeholder="VALOR DE VENDA">
         <br>
         <br>
-	<input  class="input-sm" type="submit" value="Cadastrar">
+	<input type="submit" value="Cadastrar">
 </form>
 
 </section>
@@ -81,7 +79,7 @@ if(empty($_GET["id"])){
     $con->disconnect();
     ?>
     
-<section id="" class="well well-lg" style="margin-left: 90px; margin-top: 10px; float: left; width: 70%; margin-bottom:0px; height: 490px; display: <?php echo $displayAtualiza; ?>">
+<section id="" class="well well-lg, wrapper" style=" display: <?php echo $displayAtualiza; ?>">
 
     <h1>Atualiza Produtos</h1>
 

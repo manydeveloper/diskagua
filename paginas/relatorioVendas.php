@@ -7,7 +7,7 @@
 
 <section id="content">
     <section  id="menu">
-        <?php include("../index/menu.php"); ?>
+        <?php include("../index/menuSuperior.php"); ?>
     </section>
     <h1> Relatórios </h1> 
     <hr>

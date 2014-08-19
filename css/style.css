@@ -1,67 +1,54 @@
-
-
 body{
     width: 100%;
     margin: 0 auto;
-    
-    
 }
-
-#menu{
-    width: 15%;
-    float: left;
-}
-
-
 header{
-   
     background-color: chartreuse;
     width: 100%;
 }
 
-
-#pesquisa
-{
-border-color: black;
-margin: 0 auto;
-width: 20%;
+form{
+    margin-left: 50px;
+}
+.wrapper{
+    margin-left: 80px; 
+    margin-top: 10px; 
+    float: left; 
+    width: 78%; 
+    margin-bottom:10px; 
+    min-height: 600px;
+    
+    
 }
 
-#produto , #AtualizaProduto{
-    width: 80%;
-    min-height: 478px; 
-    float: left;
-    background-color: yellowgreen;
+/*Edição do menu superior*/    
+#menuSuperior{
+    margin-left: 20px;
 }
-#fornecedor , #AtualizaFornecedor{
-    width: 80%;
-    float: left;
-}
+a {color:#333; text-decoration:none}
+a:hover {color:#ccc; text-decoration:none}
+/*fim da area de edição de menu*/
+
+/*Edição Janela Galao*/  
 #galao{
     width: 80%;
     float: left;
     background-color: yellowgreen;
 }
+/*fim da area de edição da janela Galao*/
 
-#content{
-    width: 100%;
-    float: left;
-    min-height: 690px;
-    margin-top: 0px;
-    height: 530px;
-}
-
-a {color:#333; text-decoration:none}
-a:hover {color:#ccc; text-decoration:none}
-
+/*Edição Janela modal*/    
 #mask {
   position:absolute;
   background-color:#000;
   display:none;
   top:0;
   left:0;
+  width: 1366px;
+  height: 318px;
+  display: none;
+  opacity: 0.8;
 }
-
   
 .boxes .window {
     position:absolute;
@@ -75,18 +62,15 @@ a:hover {color:#ccc; text-decoration:none}
     padding-top: 20px;
 
 }
+/*fim da area de edição da janela modal*/
 
-#div_login
-{
+/*Edição Janela login*/  
+#div_login{
     text-align: center;
     width: 20%;
-    height: 180px;
-    margin-left: 380px;
-    margin-top: 200px;
-    background-image: url(../imagens/bandeira.jpg);
-    
+    margin-left: 40%;
+    margin-top: 200px; 
 }
-
 
 #botao_logar{
     margin-top: 20px;
@@ -95,246 +79,12 @@ a:hover {color:#ccc; text-decoration:none}
 
 #label_login
 {
-    
     background-color: #ffffff;
     font-size: 24px;
 }
+/*fim da area de edição da pagina Login*/
 
-
-#content2
-{
-    width: 100%;
-    background-color: #ccc;
-    float: left;
-    
-}
-
-#estoque
-{
-width: 80%;
-float: left;
-background-color: yellowgreen;    
- 
-}
-
-#resultado
-{
-    text-align: center;
-    overflow: auto; 
-}
-
-
-#relatorio{
-    width: 50%;
-    background-color: #ccc;
-}
-
-#botao_vendas{
-    width: 180px;
-    margin-top: 0px;
-    height: 150px;
-    float: left;
-}
-
-#botao_datas{
-    width: 180px;
-    margin-top: 0px;
-    height: 150px;
-    float: left;
-}
-
-#datas
-{
-    float: left;
-    margin-top: 0px;
-}
-
-#vendas{
-    margin-top: 0;
-    float: left;
-}
-
-#botoes{
-    float: left;
-    width: 80%;
-    height: 20px;
-    background-color: #ccc;
-    margin-top: 0;
-        
-}
-
-
-
-table{
-    margin-top: 0;
-    width: 99%;
-}
-
-
-table tr.azul td{
-    
-    background-color: #66ff66;
-    
-    
-}
-
-
-#cabecalhoTelefone{
-    margin-top: 0;
-}
-
-
-
-
-#resultado{
-    margin-right: 0px;
-    margin-top: 50px;
-}
-
-#resultado {
-   
-    margin-right: 0px;
-    margin-top: 50px;
-}
-
-
-
-#resultadoTel{
-   text-align: center;
-   margin-top: 50px;
-   overflow: auto;
-   
-}
-
-tabel tr td .idcliente
-{
-    width: 50px;
-}
-
-
-/*CabeçalhoProduto*/
-
-#thcodigoProduto{
-    width: 10%;
-}
-#thnomeProduto{
-    text-align: center;
-    width: 20%;
-}
-#fornecedorCabecalho{
-    width: 25%;
-}
-#thValorCompra{
-    margin-left: 35px;
-    width: 10%;
-}
-#thquantidadeProduto{
-    width:9%;
-}
-#thValorVenda{
-    width: 10%;
-}
-
-
-#conteudoCliente{
-    width: 100%;
-    min-height: 420px;
-    float: left;
-    margin-top: 0px;
-    background-color: #ffffff;
-    text-align: left;
-}
-
-
-#camposForm{
-    width: 50%;
-    float: left;
-}
-
-
-#conteudoProduto{
-    min-height: 420px;
-    width: 90%;
-    float: left;
-    margin-top: 30px;
-    ;
-    background-color: #ffffff;
-    
-}
-
-#conteudoProduto label{
-    margin-left: 2%;
-    margin-right: 1%;
-}
-
-#conteudoCliente * {
-    margin-top: 20px;
-    margin-left: 20px;
-    
-}
-
-#tabelaVendaProduto{
-    margin-left: 10px;
-    width: 90%;
-    height: 250px;
-    background-color: #ffcc66;
-    
-}
-
-#vendaNome{
-    width: 100%;
-    float: left;
-    height: 20px;
-}
-
-#botaoVenda{
-    float: left;
-    margin-left: 50px;
-    
-}
-
-#botaoCancelaVenda{
-    
-    float: left;
-    
-   
-}
-
-
-
-#fundoValores{
-    width: 90%;
-    background-color: #ccc;
-    margin-left: 10px;
-   
-}
-
-#botoesVenda{background-color: #ffffff;
-             height: 50px;
-             width: 26%;
-             margin-top:  0%;
-             margin-left: 66%;
-}
-
-#resultadoRelatorio{
-    float: left;
-    height: 100px;
-    width: 100%;
-    float: left;
-    margin-top: 20px;
-    background-color: #ffffff;
-}
-
-#CadastroCliente
-{
- margin-left: 90px; 
- margin-top: 10px; 
- float: left; width: 70%; 
- margin-bottom:0px; 
- min-height: 650px;
-    
-}
-
+/*Edição Janela cadastra Cliente*/ 
 .Label_estado{
     margin-left: 235px;
 }
@@ -371,13 +121,27 @@ tabel tr td .idcliente
 .complemento{
     width: 345px;
 }
+/*fim da area de edição da pagina Cadastra Cliente */
 
-.table_cupom_cont, .fonte_xsmall_cupom{
-    width: 300px;
-    font-size: x-small;
+/*Edição janela de cupon de vendas */ 
+.table-cupom{
+    width: 330px;
 }
+/*fim da area de edição da pagina de cupon de vendas  */
 
-#content_Cupom{
-    width: 300px;
-    height: 550px;
+
+/*Edição janela de cadastro de vendas */ 
+#conteudoProduto{
+    width: 100%;
+    background: lawngreen;
 }
+#tabelaVendaProduto{
+    width: 100%;
+    min-height: 150px;
+}
+#cabTabelaVenda{
+    width: 100%;
+    background: #ccc;
+     
+}
+/*fim da area de edição da pagina de cadastro de vendas  */

@@ -4,8 +4,8 @@ include("../index/header.php");
 ?>
 <section id="content">
     <!-- CONTEÚDO -->
-    <section  id="menu"  style="margin-left: 5px;">
-        <?php include("../index/menu.php"); ?>
+    <section  id="menuSuperior" >
+        <?php include("../index/menuSuperior.php"); ?>
     </section>
 
     <?php
@@ -13,14 +13,14 @@ include("../index/header.php");
         $displayCadastro = "";
         $displayAtualiza = "none";
         ?>
-        <section class="well well-lg" id="CadastroCliente" style="margin-left: 90px; margin-top: 10px; float: left; width: 70%; margin-bottom:0px; min-height: 650px;  display: <?php echo $displayCadastro; ?>">
+        <section class="well well-lg, wrapper" id="CadastroCliente" style="display: <?php echo $displayCadastro; ?>">
             <fieldset>
                 <legend>
                     Cadastro de Cliente
                 </legend>   
             </fieldset>
 
-            <form style="margin-left: 20px;" name="formCliente" action="../functions/cadastra_cliente_sql.php" method="post" onsubmit=" return verificaFormCliente();">
+            <form name="formCliente" action="../functions/cadastra_cliente_sql.php" method="post" onsubmit=" return verificaFormCliente();">
                 <label><strong>Tipo de Cliente?</strong></label><br>
                 <label>
                     <input type="radio" name="pessoa" id="fisica" value="fisica" onclick="verificaPessoa();">
@@ -146,7 +146,7 @@ include("../index/header.php");
                         <input type="button"  value="+ Endereço" onclick="addEndTab()();">
                     </section>
                 </section>
-                <table class="table-striped" >
+                <table class="table ,table-striped" >
                     <thead>
                         <tr>
                             <td><strong>Cep</strong></td>

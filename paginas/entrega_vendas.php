@@ -6,7 +6,7 @@ include_once '../Class/venda/venda.class.php';
  <section id="content">
             
       <section  id="menu" style="margin-left: 10px;">
-        <?php include("../index/menu.php");    ?>
+        <?php include("../index/menuSuperior.php");    ?>
       </section>
      <section id="EntregaPendente" class="well well-lg" style="margin-left: 90px; margin-top: 10px; float: left; width: 70%; margin-bottom:10px; min-height: 650px;">  
          

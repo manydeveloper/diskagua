@@ -1,5 +1,5 @@
 <?php
-  include '../functions/verifica_sessao.php';
+ include '../functions/verifica_sessao.php';
            
             
 ?>
@@ -10,14 +10,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link href="../css/style.css" rel="stylesheet" type="text/css"/>
-<link href="../css/bootstrap.min.css" rel="stylesheet">
 <script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="../js/jquery.maskMoney.js"></script>
 <script type="text/javascript" src="../js/script.js"></script>
+<link href="../css/bootstrap.min.css" rel="stylesheet">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://code.jquery.com/jquery.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="../js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+
 <title>PIT-STOP</title>
 </head>
 
@@ -54,5 +55,3 @@
   <div id="mask"></div>
   </div>
 </header>
-    
-    
